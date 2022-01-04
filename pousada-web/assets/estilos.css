@@ -95,7 +95,7 @@ h1 {
 
 .texto-inicial {
     width: 100vw;
-    height: 25vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,7 +106,7 @@ h1 {
 
 .quartos-inicio {
     width: 75vw;
-    height: 30vh;
+    height: 60vh;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -125,4 +125,50 @@ h1 {
 .descQuarto img {
     width: 95%;
     height: 50%;
+}
+
+.rota {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviços {
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.serviço {
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviço .serviçoDesc {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.serviço img {
+    width: 50%;
+    height: 50%;
+}
+
+.dadosContato {
+    background-color: rgb(77, 196, 41);
 }
